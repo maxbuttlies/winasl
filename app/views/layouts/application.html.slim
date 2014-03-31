@@ -1,0 +1,23 @@
+DOCTYPE html
+html
+	head
+ 		title =blog_title
+  		= stylesheet_link_tag "application", media: "all"
+		//= javascript_include_tag "application"
+		= csrf_meta_tags 
+
+	body
+		.wrapper.clearboth		
+			header
+				=link_to image_tag(twitter_image_url), '/'
+				ul
+					li =link_to 'Twitter', 'http://twitter.com/'+ twitter
+					li =link_to 'GitHub', 'http://github.com/' + github
+					li =link_to 'Mail', 'mailto:' + mail
+			
+			main		
+				= yield
+
+		footer 
+			=link_to 'Impressum', '/s/impressum'
+

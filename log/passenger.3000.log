@@ -1,0 +1,583 @@
+[ 2014-03-31 04:05:45.1740 18102/b7415700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xbWhla3ZtL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1mhekvm/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '18101', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:05:45.1847 18105/b742d700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.18101/generation-0/request
+[ 2014-03-31 04:05:45.1959 18110/b7471700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.18101/generation-0/logging
+[ 2014-03-31 04:05:45.2003 18102/b7415700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 18139 stdout: 
+[ 2014-03-31 04:05:50.9252 18105/b61ffb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 18139, listening on unix:/tmp/passenger.1.0.18101/generation-0/backends/preloader.18139
+App 18237 stdout: 
+App 18244 stdout: 
+[ 2014-03-31 04:06:21.9471 18336/b7418700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xb2ZuZ3IvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ofngr/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '18335', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:06:21.9573 18339/b74af700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.18335/generation-0/request
+[ 2014-03-31 04:06:21.9676 18344/b7492700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.18335/generation-0/logging
+[ 2014-03-31 04:06:21.9733 18336/b7418700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 18371 stdout: 
+[ 2014-03-31 04:06:25.8227 18339/b63b6b40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 18371, listening on unix:/tmp/passenger.1.0.18335/generation-0/backends/preloader.18371
+App 18471 stdout: 
+App 18478 stdout: 
+[ 2014-03-31 04:10:32.2432 18753/b7422700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4yYTE0YnAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.2a14bp/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '18752', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:10:32.2536 18756/b7418700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.18752/generation-0/request
+[ 2014-03-31 04:10:32.2644 18761/b73d2700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.18752/generation-0/logging
+[ 2014-03-31 04:10:32.2703 18753/b7422700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 18800 stdout: 
+[ 2014-03-31 04:10:36.1895 18756/b59feb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 18800, listening on unix:/tmp/passenger.1.0.18752/generation-0/backends/preloader.18800
+App 18898 stdout: 
+App 18905 stdout: 
+[ 2014-03-31 04:12:38.8963 19101/b748f700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xNjA5NXY2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.16095v6/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '19100', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:12:38.9065 19104/b7400700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.19100/generation-0/request
+[ 2014-03-31 04:12:38.9168 19109/b7420700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.19100/generation-0/logging
+[ 2014-03-31 04:12:38.9227 19101/b748f700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+/home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:113:in `initialize': Connection refused - connect(2) for "::1" port 3000 (Errno::ECONNREFUSED)
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:113:in `new'
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:113:in `rescue in connect'
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:111:in `connect'
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:87:in `socket'
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:91:in `head_request'
+	from /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/prespawn:153:in `<main>'
+[ 2014-03-31 04:12:45.3682 19161/b7422700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xc3NyazVvL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ssrk5o/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '19160', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:12:45.3784 19164/b7422700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.19160/generation-0/request
+[ 2014-03-31 04:12:45.3890 19169/b7493700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.19160/generation-0/logging
+[ 2014-03-31 04:12:45.3931 19161/b7422700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 19208 stdout: 
+[ 2014-03-31 04:12:49.3243 19164/b61ffb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 19208, listening on unix:/tmp/passenger.1.0.19160/generation-0/backends/preloader.19208
+App 19306 stdout: 
+App 19313 stdout: 
+[ 2014-03-31 04:20:07.4439 20246/b73f6700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS43cnFwYXAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.7rqpap/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '20245', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 04:20:07.4723 20249/b74a4700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.20245/generation-0/request
+[ 2014-03-31 04:20:07.4843 20254/b7418700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.20245/generation-0/logging
+[ 2014-03-31 04:20:07.4889 20246/b73f6700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 20297 stdout: 
+[ 2014-03-31 04:20:11.4489 20249/b63abb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 20297, listening on unix:/tmp/passenger.1.0.20245/generation-0/backends/preloader.20297
+App 20395 stdout: 
+App 20402 stdout: 
+App 20297 stderr: Error during failsafe response: Unknown line indicator
+App 20297 stderr:   /home/edv01mbu/blog.buttlies.de/app/views/blog/post.html.slim, Line 6, Column 0
+App 20297 stderr:     ">Tweet</a>
+App 20297 stderr:     ^
+App 20297 stderr: 
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:478:in `syntax_error!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:230:in `parse_line_indicators'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:176:in `parse_line'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:77:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `each'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `inject'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/mixins/template.rb:10:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/templates/rails.rb:34:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:272:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:248:in `block in compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `synchronize'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:142:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:161:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:141:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:17:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:42:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:23:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:127:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpac
+App 20297 stderr: k-4.0.4/lib/abstract_controller/rendering.rb:97:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:16:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:40:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:189:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:10:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:383:in `_run__483350280__process_action__callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:80:in `run_callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rescue.rb:29:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:136:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:44:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:195:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:231:in `block in action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:48:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:71:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `each'
+App 20297 stderr:   /home/e
+App 20297 stderr: dv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:674:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:43:in `render_exception'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:33:in `rescue in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:38:in `call_app'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/static.rb:64:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:511:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/application.rb:97:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler.rb:448:in `block (3 levels) in start_threads'
+App 20297 stderr: 
+App 20297 stderr: Error during failsafe response: Unknown line indicator
+App 20297 stderr:   /home/edv01mbu/blog.buttlies.de/app/views/blog/post.html.slim, Line 6, Column 2
+App 20297 stderr:     ">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+App 20297 stderr:     ^
+App 20297 stderr: 
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:478:in `syntax_error!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:230:in `parse_line_indicators'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:176:in `parse_line'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:77:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `each'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `inject'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/mixins/template.rb:10:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/templates/rails.rb:34:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:272:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:248:in `block in compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `synchronize'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:142:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:161:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:141:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:17:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:42:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:23:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:127:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+App 20297 stderr:   /ho
+App 20297 stderr: me/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:97:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:16:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:40:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:189:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:10:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:383:in `_run__483350280__process_action__callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:80:in `run_callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rescue.rb:29:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:136:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:44:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:195:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:231:in `block in action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4
+App 20297 stderr: /lib/action_dispatch/routing/route_set.rb:48:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:71:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `each'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:674:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:43:in `render_exception'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:33:in `rescue in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:38:in `call_app'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/static.rb:64:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:511:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/application.rb:97:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler.rb:448:in `block (3 levels) in start_threads'
+App 20297 stderr: 
+App 20297 stderr: Error during failsafe response: Unknown line indicator
+App 20297 stderr:   /home/edv01mbu/blog.buttlies.de/app/views/blog/post.html.slim, Line 6, Column 2
+App 20297 stderr:     ">Tweet</a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+App 20297 stderr:     ^
+App 20297 stderr: 
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:478:in `syntax_error!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:230:in `parse_line_indicators'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:176:in `parse_line'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/slim-2.0.2/lib/slim/parser.rb:77:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `each'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `inject'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/engine.rb:50:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/mixins/template.rb:10:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/temple-0.6.7/lib/temple/templates/rails.rb:34:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:272:in `compile'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:248:in `block in compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `synchronize'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:236:in `compile!'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:142:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:161:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/template.rb:141:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:49:in `block (2 levels) in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:48:in `block in render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:56:in `render_with_layout'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:47:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/template_renderer.rb:17:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:42:in `render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_view/renderer/renderer.rb:23:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:127:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/streaming.rb:219:in `_render_template'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:120:in `render_to_body'
+App 20297 stderr:   /ho
+App 20297 stderr: me/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:33:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/renderers.rb:26:in `render_to_body'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:97:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:16:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/core_ext/benchmark.rb:12:in `ms'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:40:in `render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:189:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rendering.rb:10:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:383:in `_run__483350280__process_action__callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/callbacks.rb:80:in `run_callbacks'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/callbacks.rb:17:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rescue.rb:29:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `block in instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/notifications.rb:159:in `instrument'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/base.rb:136:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/abstract_controller/rendering.rb:44:in `process'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:195:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_controller/metal.rb:231:in `block in action'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4
+App 20297 stderr: /lib/action_dispatch/routing/route_set.rb:48:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:71:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `each'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/journey/router.rb:59:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/routing/route_set.rb:674:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:43:in `render_exception'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:33:in `rescue in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:38:in `call_app'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `block in call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:26:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/tagged_logging.rb:68:in `tagged'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/rack/logger.rb:20:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/activesupport-4.0.4/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/actionpack-4.0.4/lib/action_dispatch/middleware/static.rb:64:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:511:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/application.rb:97:in `call'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/rack/thread_handler_extension.rb:74:in `process_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:141:in `accept_and_process_next_request'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler/thread_handler.rb:109:in `main_loop'
+App 20297 stderr:   /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/lib/phusion_passenger/request_handler.rb:448:in `block (3 levels) in start_threads'
+App 20297 stderr: 
+App 22275 stdout: 
+[ 2014-03-31 04:35:45.5841 20249/b63ecb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 22275, listening on unix:/tmp/passenger.1.0.20245/generation-0/backends/preloader.22275
+App 22376 stdout: 
+App 24626 stdout: 
+[ 2014-03-31 04:56:55.2543 20249/b619ab40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 24626, listening on unix:/tmp/passenger.1.0.20245/generation-0/backends/preloader.24626
+App 24726 stdout: 
+App 29117 stdout: 
+[ 2014-03-31 05:36:22.8730 20249/b619ab40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 29117, listening on unix:/tmp/passenger.1.0.20245/generation-0/backends/preloader.29117
+App 29217 stdout: 
+[ 2014-03-31 05:45:42.8350 30212/b73d6700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZnRxZ2llL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1ftqgie/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '30211', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 05:45:42.9090 30215/b740c700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.30211/generation-0/request
+[ 2014-03-31 05:45:43.0842 30220/b748c700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.30211/generation-0/logging
+[ 2014-03-31 05:45:43.1009 30212/b73d6700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 30249 stdout: 
+[ 2014-03-31 05:45:46.8741 30215/b61ffb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 30249, listening on unix:/tmp/passenger.1.0.30211/generation-0/backends/preloader.30249
+App 30347 stdout: 
+[ 2014-03-31 06:22:28.4686 1743/b7459700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZXZlejYxL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1evez61/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '1742', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 06:22:28.5033 1746/b74a2700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.1742/generation-0/request
+[ 2014-03-31 06:22:28.5150 1751/b748d700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.1742/generation-0/logging
+[ 2014-03-31 06:22:28.5191 1743/b7459700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 1780 stdout: 
+[ 2014-03-31 06:22:32.7227 1746/b63a9b40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 1780, listening on unix:/tmp/passenger.1.0.1742/generation-0/backends/preloader.1780
+App 1878 stdout: 
+[ 2014-03-31 06:33:57.7707 15873/b73e3700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZmg2eXVuL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1fh6yun/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '15872', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 06:33:57.8114 15876/b7484700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15872/generation-0/request
+[ 2014-03-31 06:33:57.8416 15881/b74a0700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15872/generation-0/logging
+[ 2014-03-31 06:33:57.8480 15873/b73e3700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 15916 stdout: 
+[ 2014-03-31 06:34:01.0672 15876/b738db40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 15916, listening on unix:/tmp/passenger.1.0.15872/generation-0/backends/preloader.15916
+App 16017 stdout: 
+App 16024 stdout: 
+App 18599 stdout: 
+[ 2014-03-31 06:54:58.6150 15876/b73ceb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 18599, listening on unix:/tmp/passenger.1.0.15872/generation-0/backends/preloader.18599
+App 18697 stdout: 
+[ 2014-03-31 07:01:02.3830 19067/b7480700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5kbHpvOWUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.dlzo9e/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '19066', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:01:02.4017 19070/b74b2700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.19066/generation-0/request
+[ 2014-03-31 07:01:02.4155 19075/b741b700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.19066/generation-0/logging
+[ 2014-03-31 07:01:02.4207 19067/b7480700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 19101 stdout: 
+[ 2014-03-31 07:01:04.8600 19070/b729db40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 19101, listening on unix:/tmp/passenger.1.0.19066/generation-0/backends/preloader.19101
+App 19202 stdout: 
+App 19209 stdout: 
+[ 2014-03-31 07:04:03.1264 19601/b73e8700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS45eWU0MmIvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.9ye42b/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '19600', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:04:03.1366 19604/b747c700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.19600/generation-0/request
+[ 2014-03-31 07:04:03.1474 19609/b7483700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.19600/generation-0/logging
+[ 2014-03-31 07:04:03.1536 19601/b73e8700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 19641 stdout: 
+[ 2014-03-31 07:04:07.1599 19604/b6383b40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 19641, listening on unix:/tmp/passenger.1.0.19600/generation-0/backends/preloader.19641
+App 19742 stdout: 
+App 19749 stdout: 
+[ 2014-03-31 07:25:42.4895 22338/b73de700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lbTU2YzAvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.em56c0/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '22337', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:25:42.5005 22341/b748a700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.22337/generation-0/request
+[ 2014-03-31 07:25:42.5115 22346/b7473700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.22337/generation-0/logging
+[ 2014-03-31 07:25:42.5158 22338/b73de700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 22372 stdout: 
+[ 2014-03-31 07:25:45.7474 22341/b6391b40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 22372, listening on unix:/tmp/passenger.1.0.22337/generation-0/backends/preloader.22372
+App 22475 stdout: 
+App 22482 stdout: 
+[ 2014-03-31 07:27:40.2195 22666/b7482700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lMXU5anQvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.e1u9jt/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '22665', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:27:40.2300 22669/b73e3700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.22665/generation-0/request
+[ 2014-03-31 07:27:40.2407 22674/b7437700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.22665/generation-0/logging
+[ 2014-03-31 07:27:40.2464 22666/b7482700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 22700 stdout: 
+[ 2014-03-31 07:27:43.1731 22669/b61beb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 22700, listening on unix:/tmp/passenger.1.0.22665/generation-0/backends/preloader.22700
+App 22801 stdout: 
+App 22808 stdout: 
+App 22815 stdout: 
+[ 2014-03-31 07:31:49.9274 23054/b73e5700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5reXM1YmovdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.kys5bj/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '23053', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:31:49.9492 23057/b7466700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.23053/generation-0/request
+[ 2014-03-31 07:31:49.9764 23062/b7471700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.23053/generation-0/logging
+[ 2014-03-31 07:31:49.9816 23054/b73e5700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 23088 stdout: 
+[ 2014-03-31 07:31:54.3702 23057/b636db40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/blog.buttlies.de started on PID 23088, listening on unix:/tmp/passenger.1.0.23053/generation-0/backends/preloader.23088
+App 23201 stdout: 
+App 23208 stdout: 
+App 23215 stdout: 
+App 23222 stdout: 
+[ 2014-03-31 07:46:38.4283 25116/b7477700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xYmR2czg5L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1bdvs89/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '25115', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:46:38.4401 25119/b7497700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25115/generation-0/request
+[ 2014-03-31 07:46:38.4514 25124/b7407700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25115/generation-0/logging
+[ 2014-03-31 07:46:38.4573 25116/b7477700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 25157 stdout: 
+[ 2014-03-31 07:46:42.6825 25119/b639eb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/winasl started on PID 25157, listening on unix:/tmp/passenger.1.0.25115/generation-0/backends/preloader.25157
+App 25255 stdout: 
+App 25262 stdout: 
+[ 2014-03-31 07:54:31.9647 26148/b73f1700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5kYWQ4aHUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.dad8hu/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '26147', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:54:31.9918 26151/b74c4700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.26147/generation-0/request
+[ 2014-03-31 07:54:32.0114 26156/b7443700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.26147/generation-0/logging
+[ 2014-03-31 07:54:32.0276 26148/b73f1700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 26188 stdout: 
+[ 2014-03-31 07:54:35.0000 26151/b62bcb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/winasl started on PID 26188, listening on unix:/tmp/passenger.1.0.26147/generation-0/backends/preloader.26188
+App 26296 stdout: 
+[ 2014-03-31 07:55:58.8951 26521/b73e8700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5lcmkzdnEvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.eri3vq/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '26520', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:55:58.9050 26524/b7416700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.26520/generation-0/request
+[ 2014-03-31 07:55:58.9152 26529/b7451700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.26520/generation-0/logging
+[ 2014-03-31 07:55:58.9219 26521/b73e8700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 26555 stdout: 
+App 26555 stdout: 
+[ 2014-03-31 07:56:02.0271 26524/b59feb40 Pool2/Implementation.cpp:883 ]: Could not spawn process for group /home/edv01mbu/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:455)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:566)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:206)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:752)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:804)
+
+[ 2014-03-31 07:56:02.0284 26524/b61ffb40 agents/HelperAgent/RequestHandler.h:2210 ]: [Client 20] Cannot checkout session.
+Error page:
+uninitialized constant Winasle (NameError)
+  /home/edv01mbu/winasl/config/environments/production.rb:1:in `<top (required)>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:591:in `block (2 levels) in <class:Engine>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:590:in `each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:590:in `block in <class:Engine>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/edv01mbu/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-03-31 07:56:02.1085 26524/b61ffb40 agents/HelperAgent/RequestHandler.h:2210 ]: [Client 21] Cannot checkout session.
+Error page:
+uninitialized constant Winasle (NameError)
+  /home/edv01mbu/winasl/config/environments/production.rb:1:in `<top (required)>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:591:in `block (2 levels) in <class:Engine>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:590:in `each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/engine.rb:590:in `block in <class:Engine>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:226:in `block in tsort_each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:348:in `block (2 levels) in each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:418:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:427:in `each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:417:in `block in each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `call'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:411:in `each_strongly_connected_component_from'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:347:in `block in each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `call'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:345:in `each_strongly_connected_component'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:224:in `tsort_each'
+  /home/edv01mbu/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/tsort.rb:205:in `tsort_each'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/edv01mbu/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:112:in `eval'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:112:in `preload_app'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:158:in `<module:App>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/edv01mbu/.rvm/gems/ruby-2.1.1/gems/passenger-4.0.40/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+App 26656 stdout: 
+[ 2014-03-31 07:56:33.7685 26524/b59feb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/winasl started on PID 26656, listening on unix:/tmp/passenger.1.0.26520/generation-0/backends/preloader.26656
+App 26754 stdout: 
+[ 2014-03-31 07:56:52.5017 26783/b7446700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdTN4dGcyL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1u3xtg2/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '26782', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 07:56:52.5119 26786/b742d700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.26782/generation-0/request
+[ 2014-03-31 07:56:52.5230 26791/b7441700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.26782/generation-0/logging
+[ 2014-03-31 07:56:52.5291 26783/b7446700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 26820 stdout: 
+[ 2014-03-31 07:56:56.6713 26786/b61ffb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/winasl started on PID 26820, listening on unix:/tmp/passenger.1.0.26782/generation-0/backends/preloader.26820
+App 26920 stdout: 
+App 26927 stdout: 
+App 26920 stdout: /home/edv01mbu/winasl/app/controllers../../public/
+App 26920 stdout: 
+App 26927 stdout: /home/edv01mbu/winasl/app/controllers../../public/
+App 26927 stdout: 
+App 26927 stdout: /home/edv01mbu/winasl/app/controllers/../../public/
+App 26927 stdout: 
+App 26920 stdout: /home/edv01mbu/winasl/app/controllers/../../public/
+App 26920 stdout: 
+App 26920 stdout: /home/edv01mbu/winasl/app/controllers/../../public/
+App 26920 stdout: 
+App 26920 stdout: /home/edv01mbu/winasl/app/controllers/../../public/
+App 26920 stdout: 
+[ 2014-03-31 08:13:38.7912 28403/b7489700 agents/Watchdog/Main.cpp:538 ]: Options: { 'analytics_log_user' => 'edv01mbu', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xazY2cGQ2L3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'edv01mbu', 'default_python' => 'python', 'default_ruby' => '/home/edv01mbu/.rvm/gems/ruby-2.1.1/wrappers/ruby', 'default_user' => 'edv01mbu', 'log_level' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1k66pd6/locations.ini', 'passenger_version' => '4.0.40', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.40', 'web_server_pid' => '28402', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-03-31 08:13:38.8020 28406/b7409700 agents/HelperAgent/Main.cpp:643 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.28402/generation-0/request
+[ 2014-03-31 08:13:38.8134 28411/b74b0700 agents/LoggingAgent/Main.cpp:321 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.28402/generation-0/logging
+[ 2014-03-31 08:13:38.8367 28403/b7489700 agents/Watchdog/Main.cpp:728 ]: All Phusion Passenger agents started!
+App 28470 stdout: 
+[ 2014-03-31 08:13:42.9173 28406/b61ffb40 Pool2/SmartSpawner.h:301 ]: Preloader for /home/edv01mbu/github/winasl started on PID 28470, listening on unix:/tmp/passenger.1.0.28402/generation-0/backends/preloader.28470
+App 28607 stdout: 
+App 28626 stdout: 
+App 28607 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28607 stdout: 
+App 28607 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28607 stdout: 
+App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28626 stdout: 
+App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28626 stdout: 
+App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28626 stdout: 
+App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28626 stdout: 
+App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
+App 28626 stdout: 

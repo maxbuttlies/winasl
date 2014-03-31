@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@import "http://fonts.googleapis.com/css?family=Muli"
+
+*
+        margin: 0
+        padding: 0
+        font-family: 'Muli',  sans-serif
+
+.clearboth
+        &:after
+                clear: both
+                display: table
+                content: ''
+
+body
+        background: #eee
+
+.wrapper
+        width: 400px
+        margin: 50px auto 0px
+        
+header
+        width: 50px
+        margin-left: -60px
+        float: left
+        position: fixed
+        img
+                border-radius: 10%
+                width: 50px
+                float: left
+        ul
+                li
+                        list-style: none
+                        text-align: right
+                        a
+                                color: #000
+                                font-size: 12px
+                                text-decoration: none
+main
+        float: left
+        width: 400px
+
+footer
+        text-align: center
+        font-size: 15px
+        color: #ccc
+        margin: 10px
+        a
+                color: #ccc
+                text-decoration: none

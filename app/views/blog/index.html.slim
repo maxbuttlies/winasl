@@ -1,0 +1,10 @@
+.posts
+	- if @posts.empty? 
+		.noposts Ich habe noch keinen Beitrag geschrieben, schade.
+	- else
+		- @posts.each do | post | 
+			article.clearboth
+				==post.content
+				.informations.clearboth
+					.date
+						=link_to post.date, post.file		
