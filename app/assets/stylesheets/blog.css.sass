@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 article
-        width: 400px
+        width: 100%
         margin: 0 auto 30px
         .informations
                 border-top: 1px solid #ddd
@@ -21,6 +21,8 @@ article
                 font-size: 1em
                 color: #111
                 padding-bottom: 10px
+                @media all and (max-width: 500px)
+                        font-size: 1.5em
                 a
                         text-decoration: none
                         color: #555

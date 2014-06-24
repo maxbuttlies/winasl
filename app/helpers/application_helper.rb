@@ -5,6 +5,9 @@ module ApplicationHelper
 	def blog_author
 		"maxbuttlies"
 	end
+	def blog_url
+		"http://blog.buttlies.de"
+	end
 	def twitter
 		"maxbuttlies"
 	end

@@ -12,6 +12,7 @@
  *= require_tree .
  */
 
+
 @import "http://fonts.googleapis.com/css?family=Muli"
 
 *
@@ -26,7 +27,7 @@
                 content: ''
 
 body
-        background: #eee
+        background: #fff
 
 .wrapper
         width: 400px
@@ -37,11 +38,18 @@ header
         margin-left: -60px
         float: left
         position: fixed
+        @media all and (max-width: 500px)        
+                float: none
+                position: relative
+                margin: 0 auto
         img
                 border-radius: 10%
                 width: 50px
-                float: left
+                @media all and (max-width: 500px)
+                        margin: 5px
         ul
+                @media all and (max-width: 500px)
+                        display: none
                 li
                         list-style: none
                         text-align: right
@@ -52,7 +60,11 @@ header
 main
         float: left
         width: 400px
-
+        @media all and (max-width: 500px)
+                float: none
+                width: calc(100% - 20px)
+                margin: auto
+                text-align: justify
 footer
         text-align: center
         font-size: 15px

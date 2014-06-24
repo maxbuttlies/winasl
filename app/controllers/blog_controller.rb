@@ -1,13 +1,11 @@
+		require "rss"
+
+
+
 class BlogController < ApplicationController
 
 	def index
-		@posts = Array.new
-		files  = Dir[public_dir + posts_dir+'*'].sort.reverse
-
-		files.each do | file |
-			@posts.push open_post file
-
-		end
+		@posts = list_posts 5		
 	end
 
 	def post
@@ -31,11 +29,15 @@ class BlogController < ApplicationController
 	end
 
 
+	def feed
+		@posts = list_posts(10)
+	end
 
 	:private
 	def open_post file
+		tmp_file = file.gsub '.md', ''
 		if not  file.split('/').last.include?'.'
-			if File.exists?file+'.png' 
+			if File.exists?file+'.png' and not File.exist?file+'.md' 
 				file = file+'.png'
 			elsif File.exists?file+'.jpg'
 				file = file+'.jpg'
@@ -53,7 +55,11 @@ class BlogController < ApplicationController
 				post.content = post.content[0, post.content.length-1] if post.content.end_with? '\\' 	
 				post.content = Maruku.new(post.content).to_html
 				post.tweet = Sanitize.clean post.content[0,130]
-			
+				if File.exists?tmp_file+'.png'
+					image = tmp_file.gsub public_dir, ''			
+					image = '<a href="'+image+'.png"><img src="'+image+'.png"/></a>' 	
+					post.content = image+post.content
+				end 		
 			elsif file.end_with?'.png' or file.end_with?'.jpg'
 				image = file.gsub public_dir, ''
 				post.content = '<img src="'+image+'"/>'
@@ -62,7 +68,7 @@ class BlogController < ApplicationController
 			name = file.split('/').last.split('.').first
 			post.date = name[6,2] +'.' + name[4,2] + '.' + name[0,4]
 			post.file = name[0,4] + '/' + name[4,2] + '/' + name[6,2] + '/' + name.split('-').last
-
+			post.published = Date.parse(post.date).to_datetime.rfc3339
 			post
 		end
 	end
@@ -80,5 +86,26 @@ class BlogController < ApplicationController
 	end
 	def clear_string string
 		string[2,string.length]
+	end
+	def list_posts count
+		page = 0
+		
+		posts = Array.new
+		files  = Dir[public_dir + posts_dir+'*'].sort.reverse
+
+		first = 0
+		last = files.size > count ? count : files.size
+
+		files[first...last].each do | file |
+			if file.end_with?'png'
+				test_file = file.gsub '.png','.md'
+				if not File.exists?test_file
+					#post.push open_post file
+				end
+			else 
+				posts.push open_post file
+			end
+		end
+		posts
 	end
 end
