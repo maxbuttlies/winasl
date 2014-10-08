@@ -7,4 +7,8 @@
 				==post.content
 				.informations.clearboth
 					.date
-						=link_to post.date, post.file		
+						=link_to post.date, post.file	
+	.pagination
+		=link_to 'Neuer', @newer, :class=>"newer" if not @newer == ''
+		=link_to 'Älter', @older, :class=>"older" if not @older == ''
+

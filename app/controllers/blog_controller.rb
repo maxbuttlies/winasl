@@ -1,11 +1,21 @@
-		require "rss"
-
-
+require "rss"
 
 class BlogController < ApplicationController
-
+	@files_size = 0
 	def index
-		@posts = list_posts 5		
+		count = 5
+		if params[:page] == nil
+			page = 0
+		else
+			page = params[:page].to_i - 1
+		end
+		@posts = list_posts count,page
+
+		while @files_size%count != 0
+			@files_size = @files_size+1
+		end
+		@older = page+1 < @files_size/count ? '/p/'+(page+2).to_s : ''
+		@newer =  page > 0 ? '/p/'+(page).to_s : ''
 	end
 
 	def post
@@ -23,14 +33,12 @@ class BlogController < ApplicationController
 		@post = open_post public_dir + posts_dir+postname		
 	end
 
-
 	def site
 		@content = Maruku.new(File.new(public_dir + sites_dir + params[:site] + '.md').read).to_html
 	end
 
-
 	def feed
-		@posts = list_posts(10)
+		@posts = list_posts 10, 0
 	end
 
 	:private
@@ -80,30 +88,30 @@ class BlogController < ApplicationController
 		"sites/"
 	end
 	def public_dir
-		puts File.dirname(__FILE__) + "/../../public/"
-
 		File.dirname(__FILE__) + "/../../public/"
 	end
 	def clear_string string
 		string[2,string.length]
 	end
-	def list_posts count
-		page = 0
-		
+	def list_posts count, page
+
 		posts = Array.new
 		files  = Dir[public_dir + posts_dir+'*'].sort.reverse
+		@files_size = files.size
+		first = count*page 
+		if  first < files.size 
+			last = first + count
+			last = files.size if last > files.size  
 
-		first = 0
-		last = files.size > count ? count : files.size
-
-		files[first...last].each do | file |
-			if file.end_with?'png'
-				test_file = file.gsub '.png','.md'
-				if not File.exists?test_file
-					#post.push open_post file
+			files[first...last].each do | file |
+				if file.end_with?'png'
+					test_file = file.gsub '.png','.md'
+					if not File.exists?test_file
+						posts.push open_post file
+					end
+				else 
+					posts.push open_post file
 				end
-			else 
-				posts.push open_post file
 			end
 		end
 		posts

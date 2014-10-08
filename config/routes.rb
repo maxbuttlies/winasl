@@ -4,6 +4,8 @@ Winasl::Application.routes.draw do
 	get ':post' => 'blog#post'
 	get ':year/:month/:day/:name' => 'blog#post'
 	get 's/:site' => 'blog#site'
+	get 'p/:page' => 'blog#index'
+
 
 	get '404' => 'blog#site404'
 
