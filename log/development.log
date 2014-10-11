@@ -44149,3 +44149,141 @@ Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 22:46:3
 
 
 Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 22:46:30 +0200
+
+
+Started HEAD "/" for 127.0.0.1 at 2014-10-11 23:13:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:13:00 +0200
+Processing by BlogController#index as HTML
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (75.2ms)
+Warning. Error encountered while saving cache fa849e8c08ab4765f6290e19c523edd4a1d816f2/application.sassc: can't dump anonymous class #<Class:0x00000004a67968>
+
+  Rendered blog/index.html.slim within layouts/application (35.1ms)
+Completed 200 OK in 510ms (Views: 162.8ms)
+Completed 200 OK in 502ms (Views: 169.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:13:02 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:13:02 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:13:45 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Warning. Error encountered while saving cache fa849e8c08ab4765f6290e19c523edd4a1d816f2/application.sassc: can't dump anonymous class #<Class:0x00000004a67968>
+
+Completed 200 OK in 347ms (Views: 50.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:13:45 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:13:45 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:14:11 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Warning. Error encountered while saving cache fa849e8c08ab4765f6290e19c523edd4a1d816f2/application.sassc: can't dump anonymous class #<Class:0x00000004a67968>
+
+Completed 200 OK in 355ms (Views: 45.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:12 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:14:30 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Warning. Error encountered while saving cache fa849e8c08ab4765f6290e19c523edd4a1d816f2/application.sassc: can't dump anonymous class #<Class:0x00000004a67968>
+
+Completed 200 OK in 410ms (Views: 40.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:31 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:31 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:14:56 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Warning. Error encountered while saving cache fa849e8c08ab4765f6290e19c523edd4a1d816f2/application.sassc: can't dump anonymous class #<Class:0x00000004a67968>
+
+Completed 200 OK in 357ms (Views: 46.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:56 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:14:56 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:15:50 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.3ms)
+Completed 200 OK in 291ms (Views: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:15:50 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:15:50 +0200
+
+
+Started GET "/2014/10/11/2020/fdhfdshsd" for 127.0.0.1 at 2014-10-11 23:15:59 +0200
+Processing by BlogController#post as HTML
+  Parameters: {"year"=>"2014", "month"=>"10", "day"=>"11", "time"=>"2020", "name"=>"fdhfdshsd"}
+  Rendered blog/post.html.slim within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 8.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:15:59 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:15:59 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:16:07 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.3ms)
+Completed 200 OK in 327ms (Views: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:08 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:08 +0200
+
+
+Started GET "/p/2" for 127.0.0.1 at 2014-10-11 23:16:10 +0200
+Processing by BlogController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Completed 200 OK in 461ms (Views: 4.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:11 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:11 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-11 23:16:52 +0200
+Processing by BlogController#index as HTML
+  Rendered blog/index.html.slim within layouts/application (0.4ms)
+Completed 200 OK in 300ms (Views: 5.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:53 +0200
+
+
+Started GET "/assets/blog.css?body=1" for 127.0.0.1 at 2014-10-11 23:16:53 +0200

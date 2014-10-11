@@ -42,13 +42,13 @@ header
         position: fixed
         background: #2980b9
         border-bottom: 1px solid darken(#2980b9, 10%)
-        @media all and (max-width: 500px)        
-                float: none
-                position: relative
-                margin: 0 auto
+        @media all and (max-width: 500px) 
+                padding: 5px
         .inner
                 width: 400px
                 margin: 0 auto
+                @media all and (max-width: 500px)
+                        width: 100%
                 h1
                         padding: 15px 0 10px
                         float: left    
@@ -56,12 +56,9 @@ header
                         a 
                                 color: #fff
                                 text-decoration: none
-                        @media all and (max-width: 500px)
                                
                 ul
-                        float: right
-                        @media all and (max-width: 500px)
-                                display: none
+                        float: right              
                         li
                                 list-style: none
                                 text-align: right
