@@ -1,22 +1,22 @@
 doctype xml
 feed xmlns = 'http://www.w3.org/2005/Atom'
-  title= blog_title
-  link href="#{blog_url}/feed.atom"
-  id= blog_url+"/"
+  title= APP_CONFIG['blog_title']
+  link href="#{APP_CONFIG['blog_url']}/feed.atom"
+  id= APP_CONFIG['blog_url']+"/"
   - if @posts.any?
     updated= @posts.first.published
 
   author
-    name= blog_author
+    name= APP_CONFIG['blog_author']
 
   - @posts.each do |post|
 	entry
 		title= html_escape post.date
 		published= post.published
 		updated= post.published
-		link href="#{blog_url}/#{post.file}"
-		id =blog_url+"/"+post.file
+		link href="#{APP_CONFIG['blog_url']}/#{post.file}"
+		id =APP_CONFIG['blog_url']+"/"+post.file
 		author
-			name= blog_author
+			name= APP_CONFIG['blog_author']
 		content type = 'html'
 			= cdata_section post.content

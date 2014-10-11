@@ -1,8 +1,10 @@
 Winasl::Application.routes.draw do
 	get "blog/index"
 	get "feed" => "blog#feed",  :defaults => { :format => 'atom' }
+	get 'imap' => 'blog#imap',  :defaults => { :format => 'html' }
 	get ':post' => 'blog#post'
 	get ':year/:month/:day/:name' => 'blog#post'
+	get ':year/:month/:day/:time/:name' => 'blog#post'
 	get 's/:site' => 'blog#site'
 	get 'p/:page' => 'blog#index'
 

@@ -2,14 +2,27 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.pagination
+$baseColor: #2980b9
+
+.pagination   
+        opacity: 0.5
+        transition: opacity 1s
+        &:hover
+                opacity: 1
+                transition: opacity 1s
         a
-                color: #ddd
+                color: #fff
                 text-decoration: none
+                background: $baseColor
+                border: 1px solid darken($baseColor,10%)
+                padding: 5px 10px
+                border-radius: 5px
+                position: fixed
+                bottom: 10px          
                 &.newer
-                        float: right
+                        left: 10px
                 &.older
-                        float: left
+                        right: 10px
 
 article
         width: 100%
@@ -22,9 +35,16 @@ article
                 .date
                         font-size: 10px
                         float: right
+                        background: #fff
+                        margin-top: -12px
+                        padding-left: 5px
                         a
-                                color: #000
+                                color: #999
                                 text-decoration: none
+                                transition: color 1s
+                                &:hover
+                                        color: #000
+                                        transition: color 1s
 
         p
                 font-size: 1em
@@ -34,7 +54,8 @@ article
                         font-size: 1.5em
                 a
                         text-decoration: none
-                        color: #555
-                        border-bottom: 1px solid #999
+                        color: #000
+                        border-bottom: 1px solid lighten($baseColor, 5%)
+                        font-weight: bold
         img
                 width: 100%

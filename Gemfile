@@ -10,6 +10,7 @@ gem 'slim-rails'
 gem 'byebug'
 gem 'maruku'
 gem 'sanitize'
+gem 'mail'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

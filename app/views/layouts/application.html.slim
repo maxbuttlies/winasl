@@ -2,7 +2,7 @@ DOCTYPE html
 html
 	head
 		meta name="viewport" content="width=device-width"
-		title =blog_title
+		title =APP_CONFIG['blog_title']
   		= stylesheet_link_tag "application", media: "all"
 		//= javascript_include_tag "application"
 		= csrf_meta_tags 
@@ -10,12 +10,14 @@ html
 	body
 		.wrapper.clearboth		
 			header
-				=link_to image_tag(twitter_image_url), '/'
-				ul
-					li =link_to 'Feed', '/feed'
-					li =link_to 'Twitter', 'http://twitter.com/'+ twitter
-					li =link_to 'GitHub', 'http://github.com/' + github
-					li =link_to 'Mail', 'mailto:' + mail
+				.inner
+					h1
+						=link_to APP_CONFIG['blog_title'], '/'
+					ul
+						li =link_to '', '/feed', :class=>'zocial-rss'
+						li =link_to '', 'http://twitter.com/'+ APP_CONFIG['twitter'], :class=>'zocial-twitter'
+						li =link_to '', 'http://github.com/' + APP_CONFIG['github'], :class=>'zocial-github'
+						li =link_to '', 'mailto:' + APP_CONFIG['mail'], :class=>'zocial-email'
 			main		
 				= yield
 

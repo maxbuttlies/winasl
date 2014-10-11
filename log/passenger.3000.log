@@ -581,3 +581,436 @@ App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
 App 28626 stdout: 
 App 28626 stdout: /home/edv01mbu/github/winasl/app/controllers/../../public/
 App 28626 stdout: 
+[ 2014-10-11 17:48:16.5760 3784/7fc7d4617780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZjFrbGhkL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1f1klhd/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '3783', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 17:48:16.6791 3787/7fb7deebb780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.3783/generation-0/request
+[ 2014-10-11 17:48:16.7874 3795/7f2e45126780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.3783/generation-0/logging
+[ 2014-10-11 17:48:16.7901 3784/7fc7d4617780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 17:48:19.0998 3787/7fb7dd5d2700 Pool2/Spawner.h:796 ]: [App 3824 stdout] 
+[ 2014-10-11 17:48:31.5445 3787/7fb7dd5d2700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 3824, listening on unix:/tmp/passenger.1.0.3783/generation-0/backends/preloader.3824
+[ 2014-10-11 17:52:36.1497 4079/7f1a3fc89780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS52bXNjbngvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.vmscnx/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '4078', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 17:52:36.1550 4082/7fb755215780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.4078/generation-0/request
+[ 2014-10-11 17:52:36.1622 4088/7fed06977780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.4078/generation-0/logging
+[ 2014-10-11 17:52:36.1624 4079/7f1a3fc89780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 17:52:38.4225 4082/7fb75412d700 Pool2/Spawner.h:796 ]: [App 4120 stdout] 
+[ 2014-10-11 17:52:40.3497 4082/7fb75412d700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 4120, listening on unix:/tmp/passenger.1.0.4078/generation-0/backends/preloader.4120
+[ 2014-10-11 18:14:56.4107 5701/7fbc91bd4780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5nZ2luZWgvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.ggineh/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '5700', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 18:14:56.4160 5704/7fabf9255780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5700/generation-0/request
+[ 2014-10-11 18:14:56.4219 5712/7f462fb84780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5700/generation-0/logging
+[ 2014-10-11 18:14:56.4222 5701/7fbc91bd4780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 18:14:58.6842 5704/7fabf816d700 Pool2/Spawner.h:796 ]: [App 5741 stdout] 
+[ 2014-10-11 18:15:01.3110 5704/7fabf816d700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 5741, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.5741
+[ 2014-10-11 18:26:15.9419 5704/7fabf81ae700 Pool2/Spawner.h:796 ]: [App 6577 stdout] 
+[ 2014-10-11 18:26:18.2439 5704/7fabf81ae700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 6577, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.6577
+[ 2014-10-11 19:10:57.1719 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 5832 stdout] #<struct Net::IMAP::MailboxList attr=[:Hasnochildren], delim=".", name="Posted">
+[ 2014-10-11 19:11:17.5591 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 5832 stdout] #<struct Net::IMAP::MailboxList attr=[:Hasnochildren], delim=".", name="Posted">
+[ 2014-10-11 19:28:37.5094 5704/7fabf8045700 Pool2/Spawner.h:796 ]: [App 10050 stdout] 
+[ 2014-10-11 19:28:39.7973 5704/7fabf8045700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 10050, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.10050
+[ 2014-10-11 19:43:00.9734 5704/7fabf8086700 Pool2/Spawner.h:796 ]: [App 11140 stdout] 
+[ 2014-10-11 19:43:03.2999 5704/7fabf8086700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 11140, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.11140
+[ 2014-10-11 19:57:38.2569 5704/7fabf816d700 Pool2/Spawner.h:796 ]: [App 12097 stdout] 
+[ 2014-10-11 19:57:40.6290 5704/7fabf816d700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 12097, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.12097
+[ 2014-10-11 20:07:36.3729 5704/7fabf80c7700 Pool2/Spawner.h:796 ]: [App 13182 stdout] 
+[ 2014-10-11 20:07:38.8084 5704/7fabf80c7700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 13182, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.13182
+[ 2014-10-11 20:20:13.7459 5704/7fabf81ae700 Pool2/Spawner.h:796 ]: [App 14190 stdout] 
+[ 2014-10-11 20:20:16.0840 5704/7fabf81ae700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 14190, listening on unix:/tmp/passenger.1.0.5700/generation-0/backends/preloader.14190
+[ 2014-10-11 20:21:34.0280 5704/7fabf8086700 Pool2/Implementation.cpp:1291 ]: [App 12186 stdout] SONDER: 2
+[ 2014-10-11 20:21:34.0292 5704/7fabf8086700 Pool2/Implementation.cpp:1291 ]: [App 12186 stdout] SONDER: 2
+[ 2014-10-11 20:21:34.0302 5704/7fabf8086700 Pool2/Implementation.cpp:1291 ]: [App 12186 stdout] SONDER: 2
+[ 2014-10-11 20:21:35.0077 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:21:35.0102 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:21:35.0121 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:21:38.9239 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:21:38.9255 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:21:38.9269 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:22:04.7451 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:22:04.7470 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:22:04.7486 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] SONDER: 2
+[ 2014-10-11 20:22:44.8988 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] 
+[ 2014-10-11 20:22:44.8989 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] [53, 62] in /home/mbuttlies/Projects/winasl/app/controllers/blog_controller.rb
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    53: 	end
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    54: 
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    55: 	:private
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    56: 	def open_post file
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    57: 		byebug
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] => 58: 		tmp_file = file.gsub '.md', ''
+[ 2014-10-11 20:22:44.8990 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    59: 		if not  file.split('/').last.include?'.'
+[ 2014-10-11 20:22:44.8991 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    60: 			if File.exists?file+'.png' and not File.exist?file+'.md' 
+[ 2014-10-11 20:22:44.8991 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    61: 				file = file+'.png'
+[ 2014-10-11 20:22:44.8991 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout]    62: 			elsif File.exists?file+'.jpg'
+[ 2014-10-11 20:22:44.9681 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] [?1034h
+[ 2014-10-11 20:22:44.9682 5704/7fabf80c7700 Pool2/Implementation.cpp:1291 ]: [App 14293 stdout] (byebug) 
+[ 2014-10-11 20:23:12.9318 14508/7f251f417780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5zeWg2aXgvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.syh6ix/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '14507', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 20:23:12.9370 14511/7ff1aa971780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.14507/generation-0/request
+[ 2014-10-11 20:23:12.9429 14520/7f70765c1780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.14507/generation-0/logging
+[ 2014-10-11 20:23:12.9433 14508/7f251f417780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 20:23:15.1867 14511/7ff1a9088700 Pool2/Spawner.h:796 ]: [App 14551 stdout] 
+[ 2014-10-11 20:23:17.4497 14511/7ff1a9088700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 14551, listening on unix:/tmp/passenger.1.0.14507/generation-0/backends/preloader.14551
+[ 2014-10-11 20:23:19.0826 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:23:19.0827 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:23:19.0846 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:23:19.0848 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:23:19.0870 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:23:19.0873 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:23:40.8452 14496/7fbc91bd4780 agents/Watchdog/Main.cpp:369 ]: Some Phusion Passenger agent processes did not exit in time, forcefully shutting down all.
+[ 2014-10-11 20:23:46.6290 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:23:46.6291 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:23:46.6310 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:23:46.6311 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:23:46.6327 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:23:46.6328 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] SONDER: 2
+[ 2014-10-11 20:24:16.6805 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:16.6806 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:16.6807 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] ---------------------
+[ 2014-10-11 20:24:16.6807 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:16.6855 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:16.6856 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:16.6857 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] ---------------------
+[ 2014-10-11 20:24:16.6857 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:16.6880 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:16.6881 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:16.6881 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1291 ]: [App 14644 stdout] ---------------------
+[ 2014-10-11 20:24:16.6882 14511/7ff1a8dd6700 Pool2/Implementation.cpp:1280 ]: [App 14644 stdout] 
+[ 2014-10-11 20:24:18.1972 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:18.1973 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:24:18.1991 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:18.1992 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:24:18.2005 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:18.2005 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:24:31.4591 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:31.4592 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:24:31.4613 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:31.4616 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:24:31.4627 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] HIIIIIIIIIIIIIIIIIR
+[ 2014-10-11 20:24:31.4631 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 14764 stdout] ---------------------
+[ 2014-10-11 20:32:15.8239 14511/7ff1a90c9700 Pool2/Spawner.h:796 ]: [App 15456 stdout] 
+[ 2014-10-11 20:32:18.1116 14511/7ff1a90c9700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 15456, listening on unix:/tmp/passenger.1.0.14507/generation-0/backends/preloader.15456
+[ 2014-10-11 20:46:33.7607 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] 
+[ 2014-10-11 20:46:33.7608 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr]  ___________________________________________________________________________
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] | Maruku tells you:
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] +---------------------------------------------------------------------------
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] | Could not find ref_id = "http://buttli.es" for md_link("http://buttli.es", nil)
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] | Available refs are []
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] +---------------------------------------------------------------------------
+[ 2014-10-11 20:46:33.7609 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] !/home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/maruku-0.7.2/lib/maruku/output/to_html.rb:656:in `to_html_link'
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] !/home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/maruku-0.7.2/lib/maruku/output/to_html.rb:891:in `block in array_to_html'
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] !/home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/maruku-0.7.2/lib/maruku/output/to_html.rb:879:in `each'
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] !/home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/maruku-0.7.2/lib/maruku/output/to_html.rb:879:in `array_to_html'
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] \___________________________________________________________________________
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] 
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] Not creating a link for ref_id = "http://buttli.es".
+[ 2014-10-11 20:46:33.7610 14511/7ff1a8e17700 Pool2/Implementation.cpp:1291 ]: [App 14551 stderr] 
+[ 2014-10-11 21:24:47.7783 14511/7ff1a8d95700 Pool2/Spawner.h:796 ]: [App 20338 stdout] 
+[ 2014-10-11 21:24:50.5859 14511/7ff1a8d95700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 20338, listening on unix:/tmp/passenger.1.0.14507/generation-0/backends/preloader.20338
+[ 2014-10-11 22:09:15.2309 14511/7ff1a8e17700 Pool2/Spawner.h:796 ]: [App 24036 stdout] 
+[ 2014-10-11 22:09:17.5980 14511/7ff1a8e17700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 24036, listening on unix:/tmp/passenger.1.0.14507/generation-0/backends/preloader.24036
+[ 2014-10-11 22:23:15.3427 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 24123 stdout] maxbuttlies
+[ 2014-10-11 22:23:15.3429 14511/7ff1a8d95700 Pool2/Implementation.cpp:1280 ]: [App 24123 stdout] 
+[ 2014-10-11 22:23:15.6490 14511/7ff1a90c9700 Pool2/Spawner.h:796 ]: [App 25220 stdout] 
+[ 2014-10-11 22:23:18.0729 14511/7ff1a90c9700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 25220, listening on unix:/tmp/passenger.1.0.14507/generation-0/backends/preloader.25220
+[ 2014-10-11 22:23:33.9922 14511/7ff1a8d95700 Pool2/Implementation.cpp:1291 ]: [App 24123 stdout] maxbuttlies
+[ 2014-10-11 22:26:26.3590 25544/7f2f1060e780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS5vYXU4bWUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.oau8me/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '25543', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:26:26.3642 25547/7f1597005780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25543/generation-0/request
+[ 2014-10-11 22:26:26.3701 25556/7f0a6c1e3780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25543/generation-0/logging
+[ 2014-10-11 22:26:26.3705 25544/7f2f1060e780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:26:28.6185 25547/7f159571c700 Pool2/Spawner.h:796 ]: [App 25584 stdout] 
+[ 2014-10-11 22:26:30.7856 25547/7f159571c700 Pool2/Implementation.cpp:849 ]: Could not spawn process for group /home/mbuttlies/Projects/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:459)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:570)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:210)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:756)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:782)
+
+[ 2014-10-11 22:26:30.7860 25547/7f1595f5e700 agents/HelperAgent/RequestHandler.h:1997 ]: [Client 20] Cannot checkout session.
+Error page:
+uninitialized constant RAILS_ROOT (NameError)
+  /home/mbuttlies/Projects/winasl/config/initializers/load_config.rb:1:in `<top (required)>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:609:in `block (2 levels) in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `block in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:210:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:209:in `block in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:203:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mbuttlies/Projects/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `preload_app'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:150:in `<module:App>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-10-11 22:27:51.9942 25763/7f0e034ac780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xdnUyaHRzL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1vu2hts/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '25762', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:27:51.9997 25766/7f2ed6d54780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25762/generation-0/request
+[ 2014-10-11 22:27:52.0054 25772/7fc019d97780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25762/generation-0/logging
+[ 2014-10-11 22:27:52.0063 25763/7f0e034ac780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:27:54.2526 25766/7f2ed546b700 Pool2/Spawner.h:796 ]: [App 25803 stdout] 
+[ 2014-10-11 22:27:56.4305 25766/7f2ed546b700 Pool2/Implementation.cpp:849 ]: Could not spawn process for group /home/mbuttlies/Projects/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:459)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:570)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:210)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:756)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:782)
+
+[ 2014-10-11 22:27:56.4308 25766/7f2ed5cad700 agents/HelperAgent/RequestHandler.h:1997 ]: [Client 20] Cannot checkout session.
+Error page:
+uninitialized constant RAILS_ENV (NameError)
+  /home/mbuttlies/Projects/winasl/config/initializers/load_config.rb:1:in `<top (required)>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:609:in `block (2 levels) in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `block in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:210:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:209:in `block in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:203:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mbuttlies/Projects/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `preload_app'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:150:in `<module:App>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-10-11 22:28:31.2872 25932/7ff5fbabe780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS52bWI4cjYvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.vmb8r6/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '25931', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:28:31.2925 25935/7f88a35a2780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.25931/generation-0/request
+[ 2014-10-11 22:28:31.2985 25941/7f0cae599780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.25931/generation-0/logging
+[ 2014-10-11 22:28:31.2989 25932/7ff5fbabe780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:28:33.5407 25935/7f88a1cb9700 Pool2/Spawner.h:796 ]: [App 25972 stdout] 
+[ 2014-10-11 22:28:35.7902 25935/7f88a1cb9700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 25972, listening on unix:/tmp/passenger.1.0.25931/generation-0/backends/preloader.25972
+[ 2014-10-11 22:28:37.3386 25935/7f88a1a07700 Pool2/Implementation.cpp:1280 ]: [App 26072 stdout] 
+[ 2014-10-11 22:29:06.2665 25935/7f88a1a07700 Pool2/Implementation.cpp:1280 ]: [App 26072 stdout] 
+[ 2014-10-11 22:29:25.3616 25935/7f88a1a07700 Pool2/Implementation.cpp:1291 ]: [App 26072 stdout] maxbuttlies
+[ 2014-10-11 22:37:36.1712 26998/7f192877c780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xaDM5MjZwL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1h3926p/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '26997', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:37:36.1764 27001/7f3b2e68e780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.26997/generation-0/request
+[ 2014-10-11 22:37:36.1822 27010/7f5a07942780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.26997/generation-0/logging
+[ 2014-10-11 22:37:36.1825 26998/7f192877c780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:37:38.4209 27001/7f3b2cda5700 Pool2/Spawner.h:796 ]: [App 27040 stdout] 
+[ 2014-10-11 22:37:40.5968 27001/7f3b2cda5700 Pool2/Implementation.cpp:849 ]: Could not spawn process for group /home/mbuttlies/Projects/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:459)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:570)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:210)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:756)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:782)
+
+[ 2014-10-11 22:37:40.5971 27001/7f3b2d5e7700 agents/HelperAgent/RequestHandler.h:1997 ]: [Client 20] Cannot checkout session.
+Error page:
+(/home/mbuttlies/Projects/winasl/config/winasl.yml): found character that cannot start any token while scanning for the next token at line 9 column 1 (Psych::SyntaxError)
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse_stream'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:153:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:129:in `load'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `block in load_file'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `open'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `load_file'
+  /home/mbuttlies/Projects/winasl/config/initializers/load_config.rb:1:in `<top (required)>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `block in load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:214:in `load_dependency'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:609:in `block (2 levels) in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `block in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:210:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:209:in `block in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:203:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mbuttlies/Projects/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `preload_app'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:150:in `<module:App>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-10-11 22:37:43.2464 27001/7f3b2cda5700 Pool2/Spawner.h:796 ]: [App 27145 stdout] 
+[ 2014-10-11 22:37:45.4840 27001/7f3b2cda5700 Pool2/Implementation.cpp:849 ]: Could not spawn process for group /home/mbuttlies/Projects/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:459)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:570)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:210)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:756)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:782)
+
+[ 2014-10-11 22:37:45.4845 27001/7f3b2d5e7700 agents/HelperAgent/RequestHandler.h:1997 ]: [Client 20] Cannot checkout session.
+Error page:
+(/home/mbuttlies/Projects/winasl/config/winasl.yml): found character that cannot start any token while scanning for the next token at line 9 column 1 (Psych::SyntaxError)
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse_stream'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:153:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:129:in `load'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `block in load_file'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `open'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `load_file'
+  /home/mbuttlies/Projects/winasl/config/initializers/load_config.rb:1:in `<top (required)>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `block in load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:214:in `load_dependency'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:609:in `block (2 levels) in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `block in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:210:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:209:in `block in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:203:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mbuttlies/Projects/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `preload_app'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:150:in `<module:App>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-10-11 22:38:48.8251 27275/7f3d7ac96780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xZDRuNXBrL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.1d4n5pk/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '27274', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:38:48.8317 27278/7f129955d780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.27274/generation-0/request
+[ 2014-10-11 22:38:48.8376 27284/7f600e570780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.27274/generation-0/logging
+[ 2014-10-11 22:38:48.8379 27275/7f3d7ac96780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:38:51.0847 27278/7f1298475700 Pool2/Spawner.h:796 ]: [App 27315 stdout] 
+[ 2014-10-11 22:38:53.2560 27278/7f1298475700 Pool2/Implementation.cpp:849 ]: Could not spawn process for group /home/mbuttlies/Projects/winasl#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:459)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:570)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:210)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:756)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const Passenger::ApplicationPool2::SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:782)
+
+[ 2014-10-11 22:38:53.2563 27278/7f128bfff700 agents/HelperAgent/RequestHandler.h:1997 ]: [Client 20] Cannot checkout session.
+Error page:
+(/home/mbuttlies/Projects/winasl/config/winasl.yml): found a tab character that violate intendation while scanning a plain scalar at line 9 column 16 (Psych::SyntaxError)
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:205:in `parse_stream'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:153:in `parse'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:129:in `load'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `block in load_file'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `open'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/psych.rb:299:in `load_file'
+  /home/mbuttlies/Projects/winasl/config/initializers/load_config.rb:1:in `<top (required)>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `block in load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:214:in `load_dependency'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/activesupport-4.0.4/lib/active_support/dependencies.rb:223:in `load'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:609:in `block (2 levels) in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/engine.rb:608:in `block in <class:Engine>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:30:in `run'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:150:in `block in tsort_each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:183:in `block (2 levels) in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:210:in `block (2 levels) in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:219:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:209:in `block in each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:44:in `tsort_each_child'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:203:in `each_strongly_connected_component_from'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:182:in `block in each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:180:in `each_strongly_connected_component'
+  /home/mbuttlies/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/tsort.rb:148:in `tsort_each'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/application.rb:215:in `initialize!'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.4/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/mbuttlies/Projects/winasl/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `instance_eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/rack-1.5.2/lib/rack/builder.rb:55:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `eval'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:105:in `preload_app'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:150:in `<module:App>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:29:in `<module:PhusionPassenger>'
+  /home/mbuttlies/.rvm/gems/ruby-2.0.0-p247/gems/passenger-4.0.27/helper-scripts/rack-preloader.rb:28:in `<main>'
+
+[ 2014-10-11 22:42:02.7293 27512/7eff7022e780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS42ZnhqazUvdGVtcF9kaXJfdG91Y2hlci5waWQ=', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.6fxjk5/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '27511', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:42:02.7347 27515/7f13fa52c780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.27511/generation-0/request
+[ 2014-10-11 22:42:02.7417 27524/7fa5fcaca780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.27511/generation-0/logging
+[ 2014-10-11 22:42:02.7419 27512/7eff7022e780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:42:04.9847 27515/7f13f8c43700 Pool2/Spawner.h:796 ]: [App 27555 stdout] 
+[ 2014-10-11 22:42:07.2462 27515/7f13f8c43700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 27555, listening on unix:/tmp/passenger.1.0.27511/generation-0/backends/preloader.27555
+[ 2014-10-11 22:42:31.1633 27730/7f2814b76780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xMXdqaXRuL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.11wjitn/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '27729', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:42:31.1685 27733/7fcdcf1a1780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.27729/generation-0/request
+[ 2014-10-11 22:42:31.1744 27742/7fe04ea77780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.27729/generation-0/logging
+[ 2014-10-11 22:42:31.1747 27730/7f2814b76780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:42:33.4261 27733/7fcdcd8b8700 Pool2/Spawner.h:796 ]: [App 27771 stdout] 
+[ 2014-10-11 22:42:35.6691 27733/7fcdcd8b8700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 27771, listening on unix:/tmp/passenger.1.0.27729/generation-0/backends/preloader.27771
+[ 2014-10-11 22:43:31.1306 27947/7fb852288780 agents/Watchdog/Main.cpp:574 ]: Options: { 'analytics_log_user' => 'mbuttlies', 'cleanup_pidfiles' => 'L3RtcC9wYXNzZW5nZXItc3RhbmRhbG9uZS4xOTdxNGZoL3RlbXBfZGlyX3RvdWNoZXIucGlk', 'default_group' => 'mbuttlies', 'default_python' => 'python', 'default_ruby' => '/home/mbuttlies/.rvm/wrappers/ruby-2.0.0-p247/ruby', 'default_user' => 'mbuttlies', 'log_level' => '0', 'max_instances_per_app' => '0', 'max_pool_size' => '6', 'passenger_root' => '/tmp/passenger-standalone.197q4fh/locations.ini', 'pool_idle_time' => '300', 'prestart_urls' => 'aHR0cDovLzAuMC4wLjA6MzAwMAA=', 'temp_dir' => '/tmp', 'union_station_gateway_address' => 'gateway.unionstationapp.com', 'union_station_gateway_port' => '443', 'user_switching' => 'false', 'web_server_passenger_version' => '4.0.27', 'web_server_pid' => '27946', 'web_server_type' => 'nginx', 'web_server_worker_gid' => '-1', 'web_server_worker_uid' => '-1' }
+[ 2014-10-11 22:43:31.1362 27950/7f00c476c780 agents/HelperAgent/Main.cpp:626 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.27946/generation-0/request
+[ 2014-10-11 22:43:31.1479 27955/7fe9dd9ee780 agents/LoggingAgent/Main.cpp:318 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.27946/generation-0/logging
+[ 2014-10-11 22:43:31.1481 27947/7fb852288780 agents/Watchdog/Main.cpp:761 ]: All Phusion Passenger agents started!
+[ 2014-10-11 22:43:33.3882 27950/7f00c4686700 Pool2/Spawner.h:796 ]: [App 27988 stdout] 
+[ 2014-10-11 22:43:35.6343 27950/7f00c4686700 Pool2/SmartSpawner.h:305 ]: Preloader for /home/mbuttlies/Projects/winasl started on PID 27988, listening on unix:/tmp/passenger.1.0.27946/generation-0/backends/preloader.27988
