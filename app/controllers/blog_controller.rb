@@ -8,7 +8,6 @@ class BlogController < ApplicationController
 
 	def index
 		fetch_mails
-		props = Properties.new 
 		count = 5
 		if params[:page] == nil
 			page = 0
